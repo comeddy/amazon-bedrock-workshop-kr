@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Question Answering (QA) is an important task that involves extracting answers to factual queries posed in natural language. Typically, a QA system processes a query against a knowledge base containing structured or unstructured data and generates a response with accurate information. Ensuring high accuracy is key to developing a useful, reliable and trustworthy question answering system, especially for enterprise use cases. 
+QA(질문 답변)는 자연어로 제기된 사실적인 쿼리에 대한 답변을 추출하는 중요한 작업입니다. 일반적으로 QA 시스템은 정형 또는 비정형 데이터가 포함된 지식창고에 대한 쿼리를 처리하고 정확한 정보가 포함된 답변을 생성합니다. 특히 엔터프라이즈 사용 사례에서 유용하고 신뢰할 수 있으며 신뢰할 수 있는 질문 답변 시스템을 개발하려면 높은 정확도를 보장하는 것이 핵심입니다.
 
-Generative AI models like Amazon Titan, Anthropic Claude and AI21 Jurassic 2 use probability distributions to generate responses to questions. These models are trained on vast amounts of text data, which allows them to predict what comes next in a sequence or what word might follow a particular word. However, these models are not able to provide accurate or deterministic answers to every question because there is always some degree of uncertainty in the data. 
+Amazon Titan, Anthropic Claude, AI21 Jurassic 2와 같은 제너레이티브 AI 모델은 확률 분포를 사용하여 질문에 대한 답변을 생성합니다. 이러한 모델은 방대한 양의 텍스트 데이터를 학습하여 시퀀스에서 다음에 무엇이 나올지 또는 특정 단어 다음에 어떤 단어가 나올지 예측할 수 있습니다. 그러나 데이터에는 항상 어느 정도의 불확실성이 존재하기 때문에 이러한 모델은 모든 질문에 대해 정확하거나 결정적인 답변을 제공할 수는 없습니다.
 
-Enterprises need to query domain specific and proprietary data and use the information to answer questions, and more generally data on which the model has not been trained on.
+기업은 도메인별 및 독점 데이터를 쿼리하고 해당 정보를 사용하여 질문에 답해야 하며, 더 일반적으로는 모델이 학습되지 않은 데이터도 사용해야 합니다.
 
 ## Patterns
 
